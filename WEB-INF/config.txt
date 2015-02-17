@@ -1,0 +1,24 @@
+# e24PaymentPipe Properties
+
+# action, Purchase = 1
+action=1
+
+# currency, 414 for KD
+currency=414
+
+# ENG for English, ARA for Arabic
+language=ENG
+
+# unique to each merchant, needed to access the resource.cgn file
+alias=merchant
+
+# the directory of the resource.cgn file
+# for windows: resourcePath=D:\\Resource\\
+# for linux/unix: resourcePath=/etc/resource/
+resourcePath=D:\\Resource\\
+
+# the URL of the merchant servlet to which KNET will POST the results to
+responseURL=https://www.merchantsite.com/knet/response.jsp
+
+# the URL of the merchant error page
+errorURL=https://www.merchantsite.com/knet/error.jsp

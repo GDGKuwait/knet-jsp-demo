@@ -1,2 +1,8 @@
-# knet-jsp-demo
-This is the demo integration kit provided by KNET for JSP
+# JSP Integration Demo
+
+This is the demo integration kit provided by KNET for JSP.
+
+It provides a sample cart implementation that shows all the components that need
+to be implemented for successful validation of your application.
+
+Provided as-is.
